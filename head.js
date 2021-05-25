@@ -4,4 +4,4 @@ const assertEqual = function(actual, expected) {
 
 const head = function(data) {
   return data[0];
-}
+};
