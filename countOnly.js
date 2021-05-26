@@ -5,20 +5,20 @@ const assertEqual = function(actual, expected) {
 const countOnly = function(allItems, itemsToCount) {
   let count = {};
   Object.keys(itemsToCount).forEach(item => {
-    if (itemsToCount[item] ) {
+    if (itemsToCount[item]) {
       let occurence = countOccurence(item, allItems);
       if (occurence) count[item] = occurence;
     }
   });
   return count;
-}
+};
 
 const countOccurence = function(item, arr) {
   let count = 0;
-  for (const elm of arr) 
+  for (const elm of arr)
     count += elm === item;
   return count;
-}
+};
 
 
 const firstNames = [
