@@ -1,4 +1,4 @@
-const assert = require('chai').assert
+const assert = require('chai').assert;
 const tail = require('../tail');
 
 // TEST CODE (Using Mocha and Chai)
